@@ -1,0 +1,23 @@
+This image provides a comprehensive overview of the Retrieval-Augmented Generation (RAG) landscape, categorizing its components, development, and evaluation.
+
+### 1. What the image represents
+The image is a conceptual map or taxonomy of the RAG ecosystem. It organizes the field into two primary sections: the **RAG Ecosystem** (covering current tasks, technology, paradigms, and techniques) and the **RAG Prospect** (covering future challenges, modalities, and evaluation frameworks).
+
+### 2. Important information shown
+*   **Evolution of RAG:** It illustrates a progression from "Naive RAG" to "Advanced RAG" to "Modular RAG."
+*   **Evaluation:** It breaks down how RAG systems are assessed, distinguishing between what is evaluated (Retrieval/Generation Quality), specific aspects (e.g., faithfulness, noise robustness), and the tools/benchmarks used (e.g., RAGAS, ARES, TruLens).
+*   **Key Issues:** It highlights the fundamental challenges of "What to retrieve," "When to retrieve," and "How to use retrieval."
+
+### 3. Diagrams, charts, and labels
+*   **RAG Ecosystem (Left side):**
+    *   **Downstream Tasks:** Lists applications like Dialogue, Question Answering, Summarization, and Fact Verification.
+    *   **Technology Stacks:** Lists tools like Langchain, LlamaIndex, FlowiseAI, and AutoGen.
+    *   **Techniques:** Lists specific optimization methods such as Chunk Optimization, Query Transformation, and various Fine-tuning methods.
+*   **RAG Prospect (Right side):**
+    *   **Challenges:** Identifies issues like Long Context Length, Hybrid approaches, and Scaling-laws.
+    *   **Modality Extension:** Shows that RAG is expanding beyond text to include Image, Audio, Video, and Code.
+    *   **Ecosystem:** Mentions Customization, Simplification, and Specialization as future directions.
+*   **Evaluation of RAG (Bottom right):** A structured hierarchy showing the relationship between targets, specific metrics (aspects), and the frameworks/tools used to measure them.
+
+### 4. Short summary for research context
+This diagram serves as a high-level taxonomy for RAG research. It demonstrates that RAG is not a static technology but a modular paradigm that involves a complex interplay between **optimization techniques** (e.g., chunking, fine-tuning), **evaluation metrics** (e.g., faithfulness, relevance), and **expanding modalities** (e.g., multimodal RAG). It is useful for understanding the current state-of-the-art, the tools available for implementation, and the specific criteria used to evaluate the performance of RAG systems.

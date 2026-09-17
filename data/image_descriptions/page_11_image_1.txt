@@ -1,0 +1,23 @@
+This image illustrates three distinct architectural approaches for retrieval-augmented generation (RAG) systems: **Iterative**, **Recursive**, and **Adaptive**.
+
+### 1. What the image represents
+The diagram provides a comparative overview of three workflows used to handle queries in information retrieval and generation systems. Each approach defines a different logic for how a system processes a user query, retrieves information, generates content, and decides when to finalize a response.
+
+### 2. Important information shown
+*   **Iterative:** Focuses on providing more context information by looping through retrieval and generation steps a set number of times.
+*   **Recursive:** Focuses on breaking down complex problems by incorporating query transformation or decomposition into the loop.
+*   **Adaptive:** Focuses on flexible and active control, allowing the system to decide whether to retrieve information on demand and when to finalize the response based on specific triggers (e.g., special tokens).
+
+### 3. Diagrams, charts, and relationships
+The image uses flowcharts with standardized shapes:
+*   **Green Rectangles:** Represent the start (Query) and end (Response) points.
+*   **Grey Rectangles:** Represent processing steps (Retrieve, Generate, Query Transformation/Decomposition).
+*   **Orange Diamonds:** Represent decision points (Judge) that determine the flow of the process.
+*   **Dashed Arrows:** Indicate feedback loops or conditional paths.
+*   **Labels:** Each section includes specific constraints or triggers for the loops, such as "Iterate N Times," "Max Depth (Tree) / Threshold," and "Generate Special Token / Threshold."
+
+### 4. Short summary for research context
+This figure categorizes RAG system architectures based on their control flow:
+*   **Iterative RAG** uses a simple loop to refine answers based on repeated retrieval.
+*   **Recursive RAG** adds a layer of complexity by decomposing the query to handle multi-step reasoning.
+*   **Adaptive RAG** introduces dynamic decision-making ("Judge" nodes) to determine if retrieval is necessary or if the generation process is complete, offering the most flexibility in resource usage and response quality.
