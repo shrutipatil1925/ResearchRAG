@@ -602,7 +602,7 @@ The project demonstrates how an LLM can be connected to an external knowledge so
 
 **Shruti Patil**
 
-Computer Science & Data Science
+AI/ML Enthusiast
 
 GitHub:  
 https://github.com/shrutipatil1925
